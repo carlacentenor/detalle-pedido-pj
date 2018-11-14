@@ -1,10 +1,31 @@
 .detail__description {
   color: $darkgrey-papa;
-  padding: 0 1em;
 
-  .detail__description--title {
-    font-family: $papafont;
-    font-size: 20px;
-  }
+
 }
 
+.detail__description--title {
+  font-family: $papafont;
+  font-size: 18px;
+
+}
+
+.item-description {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+
+.item {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 20px 1fr 70px 20px;
+  gap: 5px;
+  align-items: center;
+}
+
+.detail-item--color {
+  color: $green-papa;
+  font-size: 14px;
+  line-height: 1.5;
+}

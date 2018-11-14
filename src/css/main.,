@@ -45,6 +45,7 @@ footer {
   border: none;
   background-color: transparent;
   color: #807673;
+  padding: 0 10px;
   outline: none;
 }
 .btn-delete:focus {
@@ -53,30 +54,22 @@ footer {
 
 .detail__description {
   color: #807673;
+  padding: 0 1em;
 }
-
-.detail__description--title {
+.detail__description .detail__description--title {
   font-family: papafont;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.item-description {
+.container-items {
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr;
 }
 
 .item {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 20px 1fr 70px 20px;
-  gap: 5px;
-  align-items: center;
-}
-
-.detail-item--color {
-  color: #009774;
-  font-size: 14px;
-  line-height: 1.5;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .headerbox {
@@ -109,4 +102,4 @@ footer {
   text-align: right;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.,.map */

@@ -20,56 +20,126 @@
 
   <main class="containerPrincipal detail">
     <div class="container">
-        <div class="detail__title p-2 mb-2">
-            <div class="row">
-              <div class="col-2">
-                <img class="detail__image" src="https://user-images.githubusercontent.com/32285482/42764450-426034d0-88db-11e8-83c1-30a752f4d596.png"
-                  alt="pizza-icon">
-              </div>
-              <div class="col-10">Detalle de Pedido</div>
-            </div>
+      <div class="detail__title p-2 mb-2">
+        <div class="row">
+          <div class="col-2">
+            <img class="detail__image" src="https://user-images.githubusercontent.com/32285482/42764450-426034d0-88db-11e8-83c1-30a752f4d596.png"
+              alt="pizza-icon">
           </div>
-    </div>
-      
-    <section class="container">
-
-      <div class="detail__description">
-        <div>
-          <div class="row">
-            <div class="col-9">
-              <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
-            </div>
-            <div class="col-3 text-right">
-              <button class="btn-delete" id="index" data-id="index">
-                <i class="fas fa-times"></i>
-              </button>
-            </div>
-          </div>
-          <p class="mb-0">1 Pizza Grande Americana </p>
-          <p class="mb-0">1 Pizza Grande Pepperoni</p>
+          <div class="col-10">Detalle de Pedido</div>
         </div>
       </div>
-      <div class="detail__description">
+    </div>
+
+    <section class="container container-items">
+      <div class="item-description">
+        <div class="item detail__description">
+          <div>1</div>
           <div>
-            <div class="row">
-              <div class="col-9">
-                <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
-              </div>
-              <div class="col-3 text-right">
-                <button class="btn-delete" id="index" data-id="index">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-            <p class="mb-0">1 Pizza Grande Hawaiana </p>
-            <p class="mb-0">1 Pizza Grande All the meats</p>
+            <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
+          </div>
+          <div>
+            <p class="mb-0">S/69.90</p>
+          </div>
+          <div>
+            <button class="btn-delete">
+              <i class="fas fa-times"></i>
+            </button>
           </div>
         </div>
-      <div class="container">
+        <div class="pl-4 pr-3">
+          <p class="mb-0 detail-item--color">Pizza Grande Americana </p>
+          <p class="mb-0 detail-item--color">Pizza Grande Pepperoni</p>
+        </div>
+      </div>
+
+      <div class="item-description">
+        <div class="item detail__description">
+          <div>1</div>
+          <div>
+            <p class="mb-0 detail__description--title">Pizza Familiar Americana </p>
+          </div>
+          <div>
+            <p class="mb-0">S/50.90</p>
+          </div>
+          <div>
+            <button class="btn-delete">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pl-4 pr-3">
+        </div>
+      </div>
+      <div class="item-description">
+        <div class="item detail__description">
+          <div>1</div>
+          <div>
+            <p class="mb-0 detail__description--title">Inca Kola sabor original </p>
+          </div>
+          <div>
+            <p class="mb-0">S/7.90</p>
+          </div>
+          <div>
+            <button class="btn-delete">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pl-4 pr-3 detail-item--color">
+          Sin Helar
+        </div>
+      </div>
+      <div class="item-description">
+        <div class="item detail__description">
+          <div>1</div>
+          <div>
+            <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
+          </div>
+          <div>
+            <p class="mb-0">S/69.90</p>
+          </div>
+          <div>
+            <button class="btn-delete">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pl-4 pr-3">
+          <p class="mb-0 detail-item--color">Pizza Grande Americana </p>
+          <p class="mb-0 detail-item--color">Pizza Grande Pepperoni</p>
+        </div>
+      </div>
+      <div class="item-description">
+        <div class="item detail__description">
+          <div>1</div>
+          <div>
+            <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
+          </div>
+          <div>
+            <p class="mb-0">S/69.90</p>
+          </div>
+          <div>
+            <button class="btn-delete">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pl-4 pr-3">
+          <p class="mb-0 detail-item--color">Pizza Grande Americana </p>
+          <p class="mb-0 detail-item--color">Pizza Grande Pepperoni</p>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container  mt-3">
         <p class="detail__delivery">*Costo Delivery : S/ 3.90</p>
       </div>
-      
-      <div class="detail__total">
+
+      <div class="detail__total pb-4 pt-4">
         <span>Total : S/</span>
         <span id="total">90.80</span>
       </div>
@@ -77,19 +147,19 @@
   </main>
   <footer class="confirm">
     <form id="preferencesForm ">
-  
+
       <div class="container">
-          <div class="row">
-              <div class="col-6 p-0">
-                <button class="confirm__button confirm-button--darkred p-2">Agregar m&aacute;s</button>
-              </div>
-              <div class="col-6 p-0">
-                <button type="submit" class="confirm__button text-center p-2" id="config" >Confirmar
-                </button>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-6 p-0">
+            <button class="confirm__button confirm-button--darkred p-2">Agregar m&aacute;s</button>
+          </div>
+          <div class="col-6 p-0">
+            <button type="submit" class="confirm__button text-center p-2" id="config">Confirmar
+            </button>
+          </div>
+        </div>
       </div>
-     
+
 
     </form>
   </footer>
